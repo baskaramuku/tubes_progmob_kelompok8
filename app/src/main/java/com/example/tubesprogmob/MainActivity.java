@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         String pilihan=""+dataModel.getKonten();
         //membuat data yang akan ditampilkan dalam list
         //file .html mengambil di folder assets
-       
+
 
         if(pilihan.equals("ap")) {
             //appetizer
