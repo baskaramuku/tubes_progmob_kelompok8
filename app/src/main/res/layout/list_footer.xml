@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="5dp"
-        android:text="Resep Masakan"
+        android:fontFamily="@font/shrikhand"
+        android:text="Resep Makanan"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 

@@ -38,29 +38,59 @@ public class MainActivity extends AppCompatActivity {
 
         if(pilihan.equals("ap")) {
             //appetizer
+            inputData("Mandu", "mandu.html");
+            inputData("Rice Cake", "teokbokki.html");
+            inputData("Teokkebi", "teokkebi.html");
+            inputData("Onion Ring", "Onion ring.html");
+            inputData("Agedashi Tofu", "agedashi tofu.html");
+            inputData("Algamja Jorim", "algamjajorim.html");
+            inputData("Chawan Mushi", "cawan mushi.html");
             inputData("Martabak Telur", "martabak telur.html");
             inputData("Potato Salad with Boiled Egg", "potato salad with boled egg.html");
             inputData("Selada Banjar", "selada banjar.html");
             inputData("Serabi", "serabi.html");
             inputData("Siomay Ikan", "siomay ikan.html");
         }else if(pilihan.equals("mc")) {
-
             //main course
             inputData("Creamy Tomyan", "Creamy Tomyam.html");
+            inputData("Nasi Goreng", "nasi goreng.html");
+            inputData("Sandwich", "sandwich.html");
+            inputData("Sup Ikan", "Sup ikan.html");
+            inputData("Ikan Bakar", "Ikan Bakar.html");
+            inputData("Cumi Asam Manis", "Cumi asam manis.html");
             inputData("Ratatouille", "Ratatouille.html");
+            inputData("Foire Gras", "Foire Gras.html");
             inputData("Rice with Beef Teriyaki", "Rice with beef teriyaki.html");
+            inputData("Spaghetti Carbonara", "Spaghetti Carbonara.html");
+            inputData("Soto Ayam", "soto ayam.html");
+            inputData("Lasagna", "Lasagna.html");
             inputData("Salmon Grilled Honey Sauce", "Salmon Grilled Honey Sauce.html");
+            inputData("Chicken Parmigiana", "Chicken Parmigiana.html");
             inputData("Shirataki Salmon Mentai", "Shirataki Salmon Mentai.html");
+
         }else if(pilihan.equals("ds")) {
             //Dessert
+            inputData("Pancake Mangga", "Pancake mangga.html");
             inputData("Bolu Gulung", "Bolu Gulung.html");
+            inputData("Mango Cheesecake", "Mango Cheesecake.html");
+            inputData("Milo Lava Cake", "Milo Lava Cake.html");
             inputData("Chocolate Panna Cotta", "Chocolate Panna Cotta..html");
             inputData("No-Bake Oreo Cheesecake", "No-bake Oreo Cheesecake.html");
+            inputData("Choco Brownies Pudding", "Choco brownies pudding..html");
+            inputData("Pudding Lumut", "Puding lumut.html");
             inputData("Pudding Milo Oreo", "Pudding Milo Oreo.html");
+            inputData("Banana Milk Crispy", "Banana milk crispy..html");
             inputData("Waffle Banana Caramel", "Waffle banana caramel..html");
         }else if(pilihan.equals("dr")) {
             //drinks
+            inputData("Apple Cooler", "Es apple cooler.html");
+            inputData("Patbingsoo", "es patbingso.html");
+            inputData("Oreo Frappucino", "es oreo frappucino.html");
+            inputData("Milkshake Redvelvet", "es milshake redvelvet.html");
+            inputData("Mango Thai", "es mango thai.html");
             inputData("Thai Tea", "thai_tea.html");
+            inputData("Es Coffee Boba", "es coffe boba.html");
+            inputData("Es Cream Cheese", "es cream cheese.html");
             inputData("Es Jeruk Sirup Melon", "es_jeruk_sirub_melon.html");
             inputData("Es Mangga Jelly", "es_mangga_jelly.html");
             inputData("Es Soda Gembira", "es_soda_gembira.html");

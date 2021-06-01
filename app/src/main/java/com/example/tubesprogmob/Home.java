@@ -17,6 +17,5 @@ public class Home extends AppCompatActivity {
     public void klikopen(View view){
         Intent i=new Intent(getApplicationContext(),MainMenu.class);
         startActivity(i);
-        finish();
     }
 }

@@ -27,9 +27,9 @@ public class MainMenu extends AppCompatActivity {
         //membuat data yang akan ditampilkan dalam list
         //file .html mengambil di folder assets
         //appetizer
-        inputData("appetizer", "ap");
-        inputData("main course", "mc");
-        inputData("dessert", "ds");
+        inputData("Appetizer", "ap");
+        inputData("Main Course", "mc");
+        inputData("Dessert", "ds");
         inputData("Drink", "dr");
 
 

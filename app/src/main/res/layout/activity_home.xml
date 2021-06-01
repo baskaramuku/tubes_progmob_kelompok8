@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg3"
     tools:context=".Home">
 
     <Button
@@ -12,16 +12,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:fontFamily="@font/shrikhand"
         android:onClick="klikopen"
-        android:text="Open" />
+        android:text="Open"
+        app:backgroundTint="#FF9800"
+        app:iconTint="#FF9800" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="150dp"
-        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RESEP MAKANAN" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/shrikhand"
+        android:text="RESEP"
+        android:textColor="#FF9800"
+        android:textColorHighlight="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/shrikhand"
+        android:text="MAKANAN"
+        android:textColor="#FF9800"
+        android:textColorHighlight="@color/black"
+        android:textSize="30sp" />
+
 </RelativeLayout>
